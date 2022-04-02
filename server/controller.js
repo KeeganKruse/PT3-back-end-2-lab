@@ -31,7 +31,7 @@ module.exports = {
         } else if (type === 'plus') {
             houses[index].price += 10000
             res.status(200).send(houses)
-        } else if (tyope === 'minus') {
+        } else if (type === 'minus') {
             houses[index].price -= 10000
             res.status(200).send(houses)
         } else {
